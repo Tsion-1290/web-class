@@ -1,11 +1,24 @@
-* { 
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: none;
+   
+    box-sizing: border-box;
 }
-
 
 nav {
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+   color: white;
+   background-color: yellow;
+   
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li a {
+   background-color: yellow; 
+    text-decoration: none;
+    color: white;
 }
