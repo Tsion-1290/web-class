@@ -4,6 +4,7 @@
 }
 nav {
     display: flex;
+<<<<<<< Updated upstream
     align-items: center;
     justify-content: space-between;
    color: white;
@@ -102,3 +103,11 @@ nav ul li a {
     @media (max-width: 600px) {
         
     }
+=======
+
+}
+nav ul li{
+list-style: none;
+color:yellowgreen;
+}
+>>>>>>> Stashed changes
