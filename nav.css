@@ -2,24 +2,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-nav {
-    display: flex;
-<<<<<<< Updated upstream
-    align-items: center;
-    justify-content: space-between;
-   color: white;
-   background-color: gray;
-   padding: 20px;
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32; 
+  padding: 1rem 2rem;
 }
-nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
 }
-nav ul li a {
-   background-color: yellow; 
-    text-decoration: none;
-    color: white;
+
+.nav-links a {
+  margin-left: 36px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: yellow;
 }
  header  {
     background-image: url(background.jpg);
@@ -103,11 +109,3 @@ nav ul li a {
     @media (max-width: 600px) {
         
     }
-=======
-
-}
-nav ul li{
-list-style: none;
-color:yellowgreen;
-}
->>>>>>> Stashed changes
