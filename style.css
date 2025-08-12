@@ -1,7 +1,7 @@
 
 .hero {
   background: url('new_year.jpg') no-repeat center center/cover;
-  height: 70vh;
+  height: 77.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .hero-content {
-  background: rgba(3, 253, 3, 0.5);
+  background: rgba(205, 228, 70, 0.5);
   padding: 30px;
   border-radius: 10px;
   max-width: 800px;
@@ -19,7 +19,7 @@
 
 .hero h1 {
   font-size: 2.5rem;
-  color: yellow;
+  color: rgb(37, 142, 18);
   margin-bottom: 15px;
 }
 
@@ -52,12 +52,36 @@
   color: white;
   text-align: center;
   padding: 10px 5px;
+  width: 100vw;
+  box-sizing: border-box;
+   margin-left: calc(-50vw + 50%);
 }
 
 .footer-content p {
   margin: 5px 0;
   font-size: 0.9rem;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdf6;
+}
+/*Location Site*/
 
+.header {
+    background-color: #FFD700;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+   
+}
 
+.content {
+    padding: 2rem;
+    height: 77.5vh;
+}
+
+.content h3 {
+    color: #228B22;
+}
 
