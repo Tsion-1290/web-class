@@ -72,7 +72,8 @@ body {
     background-color: #FFD700;
     padding: 2rem;
     text-align: center;
-    color: black;
+    color: green;
+    font-size: 40px;
    
 }
 
@@ -83,5 +84,68 @@ body {
 
 .content h3 {
     color: #228B22;
+     
+}
+
+/* Gallery */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffef5; 
+  color: #333;
+}
+
+.gallery-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: yellow;
+  color: green;
+}
+
+.gallery-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Gallery Grid */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 128, 0, 0.7); /* semi-transparent green */
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
 }
 
