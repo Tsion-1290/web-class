@@ -20,35 +20,37 @@
         <a href="contact.html">Contact </a>
       </div>
     </nav>
-<section class="contact-participation">
-  <h2>Contact Us & Get Involved</h2>
-  <div class="contact-form">
-    <h3>Send Us a Message</h3>
-    <form action="submit.html" method="get">
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" placeholder="Your Name" required>
+  <section class="contact-participation">
+    <h2>Contact Us & Get Involved</h2>
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form method="get">
+        <label for="name">Name:</label>
+        <input type="text" onchange="search()" name="name" id="name" placeholder="Your Name" required>
 
-      <label for="phone">Phone:</label>
-      <input type="tel" name="phone" id="phone" placeholder="+251 9xx xxx xxx">
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="+251 9xx xxx xxx">
 
-      <label for="note">Comment:</label>
-      <textarea name="note" id="note" rows="5" placeholder="Your message here..." required></textarea>
+        <label for="note">Comment:</label>
+        <textarea name="note" id="note" rows="5" placeholder="Your message here..." required></textarea>
 
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-  <div class="participation-social">
-    <div class="social-media">
-      <h3>Follow Us on Social Media</h3>
-      <p>Stay updated and join the celebration online:</p>
-      <div class="social-links">
-        <a href="#" class="social-link">Facebook</a>
-        <a href="#" class="social-link">Instagram</a>
-        <a href="#" class="social-link">Twitter</a>
+        <input type="submit"  value="Submit" id="submit">
+      </form>
+    </div>
+    <div class="participation-social">
+      <div class="social-media">
+        <h3>Follow Us on Social Media</h3>
+        <p>Stay updated and join the celebration online:</p>
+        <div class="social-links">
+          <a href="#" class="social-link">Facebook</a>
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Twitter</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+
+    <div class="answer" id="answer"></div>
+  </section>
 </div>
-</body>
+<script src="script.js"></script>
 </html>
